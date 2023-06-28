@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zipLink - URL Shortener</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        /* Custom styles */
+        body {
+            background-color: #ffffff;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #008080;
+            height: 60px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar-brand {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 40px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #008080;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        .lead {
+            color: #008080;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .btn-primary {
+            background-color: #008080;
+            border-color: #008080;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .btn-primary:hover {
+            background-color: #005959;
+            border-color: #005959;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">zipLink</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary me-2" href="/register">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" href="/login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-light min-vh-100 d-flex flex-column justify-content-center align-items-center py-5">
+        <div class="container rounded-3 bg-white py-5">
+            <h1 class="mt-5">Welcome to zipLink!</h1>
+            <p class="lead mb-4">Shorten your long URLs with ease.</p>
+            <a class="btn btn-primary btn-lg" href="/register">Get Started</a>
+        </div>
+    </div>
+
+    <footer class="mt-5 text-center">
+        <p>&copy; 2023 zipLink. All rights reserved.</p>
+        <p>Made with &#10084; from Y_ash</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
