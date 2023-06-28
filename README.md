@@ -32,6 +32,13 @@ MongoDB Atlas is used as a cloud Database to store all the generated URLs and th
 
 To add styling to the .ejs files.
 
+![Screenshot from 2023-06-28 16-45-13](https://github.com/Yash-1907/zipILink-url-shortner/assets/76249576/ed7b0862-f453-47a0-a942-184e1080a886)
+
+![Screenshot from 2023-06-28 16-46-22](https://github.com/Yash-1907/zipILink-url-shortner/assets/76249576/918829f4-360c-4c63-968b-a73255a73d83)
+
+![Screenshot from 2023-06-28 16-46-40](https://github.com/Yash-1907/zipILink-url-shortner/assets/76249576/1a35dd36-2d9b-43c5-a50e-c89e5286a644)
+
+
 ## Takeaways
 
 - Learned Express and MongoDB
